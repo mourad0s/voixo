@@ -1,0 +1,29 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Fichiers audio (trop lourds pour git)
+inputs/
+outputs/
+
+# FFmpeg (binaire lourd)
+ffmpeg-*/
+ffmpeg-N-123477-g5640bd3a4f-win64-gpl.zip
+
+# Modeles TTS telecharges
+*.pth
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporaires
+temp_*.wav
